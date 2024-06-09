@@ -1,0 +1,7 @@
+# 8 - Leia uma temperatura em graus Kelvin e apresente-a convertida em graus Celsius. A formula de conversão é:
+# C = K - 273.15, sendo que C a temperatura em Celsius e K a temperatura em Kelvin.
+
+k = float(input('Informe a temperatura em graus Kelvin: '))
+c = k - 273.15
+
+print(f'A temperatura em graus Celsius é: {c}')
